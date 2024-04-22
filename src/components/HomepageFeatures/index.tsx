@@ -55,6 +55,8 @@ function Feature({title, Svg, description}: FeatureItem) {
   );
 }
 
+import Preinscriptions from "../_Preinscriptions.md"
+
 export default function HomepageFeatures(): JSX.Element {
   return (
     <section className={styles.features}>
@@ -63,6 +65,7 @@ export default function HomepageFeatures(): JSX.Element {
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
           ))}
+          <Preinscriptions/>
         </div>
       </div>
     </section>

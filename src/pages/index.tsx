@@ -13,7 +13,7 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <Heading as="h1" className="hero__title">
-          {siteConfig.title}
+          MeucheJam
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
@@ -33,6 +33,11 @@ export default function Home(): JSX.Element {
       <main>
         <HomepageFeatures />
       </main>
+        Bienvenue dans la MeucheJam ! Une GameJam crée et imaginée par la MeucheTeam ! Le but est de faire une Jam ouverte à tous et à toutes en solo ou en team, en tant que dev ou artiste, tout le monde est convié !!
+
+Si vous êtes streamers, vous pourrez nous envoyer votre POV et on passera vous voir de temps en temps sur la meucheTV ici : https://www.twitch.tv/meucheroume
+
+Et si vous n'êtes pas streamer, pas de souci, vous aurez le droit à tout autant de fun !
     </Layout>
   );
 }
