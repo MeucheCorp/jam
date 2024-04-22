@@ -1,0 +1,3 @@
+- Du vendredi 31 mai à 19h, jusqu'au dimanche 2 juin à 19h
+- En ligne, depuis chez vous
+- Seul ou en équipe (pas de limite de taille)

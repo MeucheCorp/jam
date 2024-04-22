@@ -45,7 +45,10 @@ const config: Config = {
         alt: "MeucheRoume",
         src: "img/logo_meuche_sans_fond - Copy.png",
       },
-      items: [{ to: "/Inscriptions", label: "Inscriptions", position: "left" }],
+      items: [
+        { to: "/Infos", label: "Infos", position: "left" },
+        { to: "/Inscriptions", label: "Inscriptions", position: "left" },
+      ],
     },
     footer: {
       style: "dark",

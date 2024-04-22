@@ -55,7 +55,7 @@ function Feature({title, Svg, description}: FeatureItem) {
   );
 }
 
-import Preinscriptions from "../_Preinscriptions.md"
+import Description from "../_Description.md"
 
 export default function HomepageFeatures(): JSX.Element {
   return (
@@ -65,7 +65,7 @@ export default function HomepageFeatures(): JSX.Element {
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
           ))}
-          <Preinscriptions/>
+          <Description/>
         </div>
       </div>
     </section>

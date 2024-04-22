@@ -1,4 +1,4 @@
 - [Rejoignez le Discord](https://discord.gg/Mg2mby4w9w)
 - [Rejoignez la jam sur itch.io](https://itch.io/jam/meuchejam)
-- [Inscrivez-vous sur la mailing list pour ne rater aucune info](https://forms.gle/EYDK7x6L3ujPN2ps8)
+- [Inscrivez-vous à la mailing list](https://forms.gle/EYDK7x6L3ujPN2ps8)
 - [Ajoutez l'évènement à votre calendrier](/meuchejam.ics)
