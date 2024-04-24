@@ -48,6 +48,7 @@ const config: Config = {
       items: [
         { to: "/Infos", label: "Infos", position: "left" },
         { to: "/Inscriptions", label: "Inscriptions", position: "left" },
+        { to: "/Participantes", label: "Participant.es", position: "left" },
       ],
     },
     footer: {
