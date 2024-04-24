@@ -1,4 +1,7 @@
 import Preinscriptions from "../components/_Preinscriptions.md"
+import Timer from "../components/Timer"
+
+<Timer/>
 
 **Bienvenue dans la MeucheJam !** Une GameJam créée et imaginée par la MeucheTeam ! Le but est de faire une Jam ouverte à tous et à toutes en solo ou en team, en tant que dev ou artiste, tout le monde est convié !!
 
