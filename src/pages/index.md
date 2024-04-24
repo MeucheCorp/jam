@@ -6,6 +6,10 @@ Si vous êtes streamer, vous pourrez nous envoyer votre POV et on passera vous v
 
 Et si vous n'êtes pas streamer, pas de souci, vous aurez le droit à tout autant de fun !
 
+:::tip Trouve ton équipe !
+Si vous ne vous sentez pas de faire la jam seul.e, et que vous n'avez pas d'équipe, vous pouvez en chercher une [sur le discord](https://discord.gg/YhvRqS2wMC).
+:::
+
 Pour ne rater aucune info, au choix :
 
 <Preinscriptions/>
