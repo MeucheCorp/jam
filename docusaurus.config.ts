@@ -43,7 +43,7 @@ const config: Config = {
       title: "MeucheJam",
       logo: {
         alt: "MeucheRoume",
-        src: "img/logo_meuche_sans_fond - Copy.png",
+        src: "img/logo_meuche_fond_rond.png",
       },
       items: [
         { to: "/Infos", label: "Infos", position: "left" },
