@@ -3,7 +3,7 @@ import Preinscriptions from "../components/_Preinscriptions.md"
 **Bienvenue dans la MeucheJam !** Une GameJam créée et imaginée par la MeucheTeam ! Le but est de faire une Jam ouverte à tous et à toutes en solo ou en team, en tant que dev ou artiste, tout le monde est convié !!
 
 :::info Qu'est-ce qu'une Game Jam ?
-Une GameJam c'est un événement où l'on développe son propre jeu vidéo le temps d'un weekend. Souvent sur un thème et une contrainte donné.es. Le tout dans une ambiance décontractée et fun, le but est avant tout de s'amuser et progresser quel que soit ton niveau !
+Une GameJam c'est un évènement où l'on développe son propre jeu vidéo le temps d'un weekend. Souvent sur un thème et une contrainte donné.es. Le tout dans une ambiance décontractée et fun, le but est avant tout de s'amuser et progresser quel que soit ton niveau !
 :::
 
 Si vous êtes streamer, vous pourrez nous envoyer votre POV et on passera vous voir de temps en temps sur la [MeucheTV](https://www.twitch.tv/meucheroume).
