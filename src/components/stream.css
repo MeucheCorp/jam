@@ -1,0 +1,9 @@
+.all_pov {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 200px;
+}
+
+.single_pov {
+    padding: 10px;
+}

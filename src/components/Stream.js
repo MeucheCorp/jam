@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
+import './stream.css';
 
-const TwitchEmbed = ({ channel }) => {
+const Stream = ({ channel }) => {
     useEffect(() => {
         const script = document.createElement('script');
         script.src = 'https://player.twitch.tv/js/embed/v1.js';
@@ -8,9 +9,10 @@ const TwitchEmbed = ({ channel }) => {
         document.body.appendChild(script);
 
         script.onload = () => {
-            new window.Twitch.Player("twitch-embed", {
+            const player = new window.Twitch.Player(channel, {
                 channel
             });
+            player.setMuted(true);
         };
 
         return () => {
@@ -18,7 +20,7 @@ const TwitchEmbed = ({ channel }) => {
         };
     }, [channel]);
 
-    return <div id="twitch-embed"></div>;
+    return <div class="single_pov" id={channel}></div>;
 };
 
-export default TwitchEmbed;
+export default Stream;
