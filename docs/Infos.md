@@ -1,4 +1,4 @@
-📅 Du vendredi 7 juin à 19h, jusqu'au dimanche 9 juin à 19h. Vous pouvez [ajouter l'évènement à votre calendrier](/meuchejam.ics)<br/>
+📅 Du vendredi 7 juin à 19h, jusqu'au dimanche 9 juin à 19h. <!-- Vous pouvez [ajouter l'évènement à votre calendrier](/meuchejam.ics)--> <br/>
 🌐 En ligne, depuis chez vous<br/>
 🤗 Ouvert à toustes, surtout aux débutant.es. N'hésitez pas à vous lancer et participer ! C'est une super expérience et un super entraînement ! N'ayez pas peur de ne pas finir à temps, de ne pas être au niveau, **ce n'est pas grave !** On est là pour se faire plaisir et passer un bon moment !<br/>
 👬 Seul.e ou en équipe (pas de limite de taille)<br/>
