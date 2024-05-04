@@ -1,5 +1,6 @@
 import Stream from "../components/Stream"
 import Layout from '@theme/Layout';
+import React, { useState, useEffect } from 'react';
 
 function shuffle(array) {
     for (let i = array.length - 1; i > 0; i--) {
@@ -10,16 +11,35 @@ function shuffle(array) {
     }
 }
 
-export default function Home() {
-    const channels = ["meucheroume"]
-    shuffle(channels)
+
+export default () => {
+    const [data, setData] = useState(null);
+
+    useEffect(async () => {
+        const fetchData = async () => {
+            try {
+                const response = await fetch('https://meuchejam-backend.onrender.com');
+                const jsonData = await response.json();
+                console.log("finished fetching data:")
+                shuffle(jsonData)
+                setData(jsonData)
+                console.log(jsonData)
+            } catch (error) {
+                console.error('Error fetching data:', error);
+            }
+        };
+
+        fetchData();
+    }, []);
+
+
     return (
         <Layout>
             <main>
                 <div class="all_pov">
-                    {channels.map((channel) => (<Stream channel={channel} />))}
+                    {data && data.map((channel) => (<Stream channel={channel} />))}
                 </div>
             </main>
         </Layout>
-    );
-}
+    )
+};
