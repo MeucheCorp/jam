@@ -11,7 +11,7 @@ function shuffle(array) {
 }
 
 export default function Home() {
-    const channels = ["meucheroume", "skyyart", "kitano_lol"]
+    const channels = ["meucheroume"]
     shuffle(channels)
     return (
         <Layout>
