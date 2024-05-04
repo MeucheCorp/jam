@@ -10,9 +10,9 @@ const Stream = ({ channel }) => {
 
         script.onload = () => {
             const player = new window.Twitch.Player(channel, {
-                channel
+                channel,
+                muted: true,
             });
-            player.setMuted(true);
         };
 
         return () => {
