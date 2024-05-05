@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import './stream.css';
 
-const Stream = ({ channel }) => {
+const Stream = ({ channel, name }) => {
     useEffect(() => {
         const script = document.createElement('script');
         script.src = 'https://player.twitch.tv/js/embed/v1.js';
@@ -20,7 +20,10 @@ const Stream = ({ channel }) => {
         };
     }, [channel]);
 
-    return <div class="single_pov" id={channel}></div>;
+    return <div class="streamer">
+        <h3 class="text-overlay">{name || channel}</h3>
+        <div class="single_pov" id={channel}></div>
+    </div>
 };
 
 export default Stream;

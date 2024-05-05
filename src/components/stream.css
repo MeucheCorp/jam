@@ -1,9 +1,4 @@
-.all_pov {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 50px 200px;
-}
-
-.single_pov {
-    padding: 10px;
+.streamer {
+    padding: 0 15px 15px 15px;
+    text-align: center;
 }
