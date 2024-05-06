@@ -1,4 +1,8 @@
 import Preinscriptions from "../components/_Preinscriptions.md"
+import Countdown from "../components/Countdown"
+
+<Countdown targetDate="2024-06-07T19:00:00"/>
+<br/>
 
 **Bienvenue dans la MeucheJam !** Une GameJam créée et imaginée par la MeucheTeam ! Le but est de faire une Jam ouverte à tous et à toutes en solo ou en team, en tant que dev ou artiste, tout le monde est convié !!
 
@@ -18,6 +22,5 @@ Et si vous n'êtes pas streamer, pas de souci, vous aurez le droit à tout autan
 :::tip Trouve ton équipe !
 Si vous ne vous sentez pas de faire la jam seul.e, et que vous n'avez pas d'équipe, vous pouvez en chercher une [sur le discord](https://discord.gg/YhvRqS2wMC).
 :::
-
 
 ![](./affiche.png)
