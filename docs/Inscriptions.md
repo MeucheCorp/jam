@@ -1,4 +1,12 @@
+---
+hide_title: true
+---
+
 import Preinscriptions from "../src/components/_Preinscriptions.md"
+import Countdown from "../src/components/Countdown"
+
+<Countdown/>
+<br/>
 
 Pour vous inscrire, il vous suffit de remplir le formulaire ci-dessous. L'inscription n'engage à rien. Et vous pouvez vous inscrire jusqu'à la dernière minute, et même après que l'event ait commencé.
 

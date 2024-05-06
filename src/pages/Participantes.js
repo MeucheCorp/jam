@@ -2,6 +2,7 @@ import Stream from "../components/Stream"
 import Name from "../components/Name"
 import Layout from '@theme/Layout';
 import React, { useState, useEffect } from 'react';
+import Countdown from "../components/Countdown"
 
 function shuffle(array) {
     for (let i = array.length - 1; i > 0; i--) {
@@ -11,7 +12,6 @@ function shuffle(array) {
         array[j] = temp;
     }
 }
-
 
 export default () => {
     const [data, setData] = useState(null);
@@ -35,6 +35,7 @@ export default () => {
     return (
         <Layout>
             <main>
+                <Countdown />
                 <div class="all_pov">
                     {data && data.streamers.map(({ channel, name }) => (<Stream channel={channel} name={name} />))}
                 </div>

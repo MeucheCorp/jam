@@ -1,7 +1,7 @@
 import Preinscriptions from "../components/_Preinscriptions.md"
 import Countdown from "../components/Countdown"
 
-<Countdown targetDate="2024-06-07T19:00:00"/>
+<Countdown/>
 <br/>
 
 **Bienvenue dans la MeucheJam !** Une GameJam créée et imaginée par la MeucheTeam ! Le but est de faire une Jam ouverte à tous et à toutes en solo ou en team, en tant que dev ou artiste, tout le monde est convié !!

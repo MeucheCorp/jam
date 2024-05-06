@@ -8,8 +8,9 @@ const remove_s = (word, value) => {
         return word
 }
 
-function Countdown({ targetDate }) {
+function Countdown() {
     const calculateTimeLeft = () => {
+        const targetDate = "2024-06-07T19:00:00"
         let difference = +new Date(targetDate) - +new Date();
         let timeLeft = {};
 
