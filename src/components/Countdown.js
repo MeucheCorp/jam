@@ -1,6 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import './Countdown.css';
 
+const remove_s = (word, value) => {
+    if (value === 1)
+        return word.substring(0, word.length - 1)
+    else
+        return word
+}
+
 function Countdown({ targetDate }) {
     const calculateTimeLeft = () => {
         let difference = +new Date(targetDate) - +new Date();
@@ -43,7 +50,7 @@ function Countdown({ targetDate }) {
         is_first = false
         timerComponents.push(
             <span key={interval}>
-                {timeLeft[0][interval]} {interval}{' '}
+                {timeLeft[0][interval]} {remove_s(interval, timeLeft[0][interval])}{' '}
             </span>
         );
     });
