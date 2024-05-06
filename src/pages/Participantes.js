@@ -16,12 +16,11 @@ function shuffle(array) {
 export default () => {
     const [data, setData] = useState(null);
 
-    useEffect(async () => {
+    useEffect(() => {
         const fetchData = async () => {
             try {
                 const response = await fetch('https://meuchejam-backend.onrender.com');
                 const jsonData = await response.json();
-                console.log("finished fetching data:")
                 shuffle(jsonData.streamers)
                 shuffle(jsonData.non_streamers)
                 setData(jsonData)
