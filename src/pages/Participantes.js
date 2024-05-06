@@ -19,7 +19,7 @@ export default () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch('https://meuchejam-backend.onrender.com');
+                const response = await fetch('https://meuchejam-backend.onrender.com/participants');
                 const jsonData = await response.json();
                 shuffle(jsonData.streamers)
                 shuffle(jsonData.non_streamers)
