@@ -7,8 +7,8 @@ import Countdown from "../src/components/Countdown"
 <Countdown/>
 <br/>
 
-**Thème : Clé** </br>
-**Contrainte : Ajouter au moins un easter egg !** </br>
+**Thème : Clé** <br/>
+**Contrainte : Ajouter au moins un easter egg !** <br/>
 
 📅 Du vendredi 7 juin à 19h, jusqu'au dimanche 9 juin à 19h. <!-- Vous pouvez [ajouter l'évènement à votre calendrier](/meuchejam.ics)--> <br/>
 🌐 En ligne, depuis chez vous<br/>
